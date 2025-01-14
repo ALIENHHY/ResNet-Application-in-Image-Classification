@@ -5,43 +5,43 @@ This project provides the implementation of an image classification feature for 
 
 * Installation Guide
 
-** Libraries: Includes but is not limited to the following: pytorch, PIL and pytesseract
+  * Libraries: Includes but is not limited to the following: pytorch, PIL and pytesseract
 
 * Usage Instructions
 
-** Input/Output Format:
+  * Input/Output Format:
 
-*** Object Detection: The input is an image file, and the output is a confidence score indicating the likelihood that the specified object is present in the image.
+    * Object Detection: The input is an image file, and the output is a confidence score indicating the likelihood that the specified object is present in the image.
 
-*** Text Recognition: The input is an image file, and the output is binary (0 or 1), representing whether the target text is detected.
+    * Text Recognition: The input is an image file, and the output is binary (0 or 1), representing whether the target text is detected.
 
-** Parameters:
+  * Parameters:
 
-*** Threshold: Default is 0.5. When the confidence exceeds the threshold, the object is considered present. This value is adjustable.
+    * Threshold: Default is 0.5. When the confidence exceeds the threshold, the object is considered present. This value is adjustable.
 
-*** Training Dataset: The dataset is divided for various tasks and stored in the root directory.
+    * Training Dataset: The dataset is divided for various tasks and stored in the root directory.
 
 * Testing and Results
 
-** Testing Methodology:
+  * Testing Methodology:
 
 A test set of 50 images, including bicycles, electric bikes, buses (interior and exterior), is used for evaluation. The test images are stored in the predict folder.
 
-** Example Results:
+  * Example Results:
 
 Detailed results can be found in the associated documentation.
 
 * Project Structure
 
-** Root Directory: Contains all the code, datasets, and .pth files with trained model parameters.
+  * Root Directory: Contains all the code, datasets, and .pth files with trained model parameters.
 
-** Key Files:
+  * Key Files:
 
-*** Code files: Python scripts for training, inference, and utility functions.
+    * Code files: Python scripts for training, inference, and utility functions.
 
-*** Datasets: Subdivided by classification tasks.
+    * Datasets: Subdivided by classification tasks.
 
-*** Model files: Pretrained weights for ResNet-based models.
+    * Model files: Pretrained weights for ResNet-based models.
 
 * Notes
 
