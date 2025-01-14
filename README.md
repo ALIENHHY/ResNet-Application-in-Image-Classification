@@ -5,7 +5,7 @@ This project provides the implementation of an image classification feature for 
 
 * Installation Guide
 
-  * Libraries: Includes but is not limited to the following: pytorch, PIL and pytesseract
+  * Libraries: Includes but is not limited to the following: pytorch, PIL and pytesseract.
 
 * Usage Instructions
 
