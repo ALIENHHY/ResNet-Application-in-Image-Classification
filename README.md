@@ -23,13 +23,9 @@ This project provides the implementation of an image classification feature for 
 
 * Testing and Results
 
-  * Testing Methodology:
+  * Testing Methodology: A test set of 50 images, including bicycles, electric bikes, buses (interior and exterior), is used for evaluation. The test images are stored in the predict folder.
 
-A test set of 50 images, including bicycles, electric bikes, buses (interior and exterior), is used for evaluation. The test images are stored in the predict folder.
-
-  * Example Results:
-
-Detailed results can be found in the associated documentation.
+  * Example Results: Detailed results can be found in the associated documentation.
 
 * Project Structure
 
@@ -45,4 +41,4 @@ Detailed results can be found in the associated documentation.
 
 * Notes
 
-Due to company policies, the dataset includes only a subset of the images, and the .pth files are provided for reference purposes only.
+**Due to company policies, the dataset includes only a subset of the images, and the .pth files are provided for reference purposes only.**
